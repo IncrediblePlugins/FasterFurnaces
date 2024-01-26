@@ -30,7 +30,7 @@ database:
   # MySQL database
   # If MySQL is disabled, it will use SQLite instead, which runs out of the box without any further steps required.
   # To use this without issues, your connection limits etc. need to be configured properly in your MySQL server configuration.
-  # It is not recommended to connect multiple UpgradeableFurnace instances to one database with the same table prefix.
+  # It is not recommended to connect multiple FasterFurnaces instances to one database with the same table prefix.
   mysql:
     enabled: false
     ip-address: 'localhost'
@@ -39,7 +39,7 @@ database:
     password: 'password'
     database: 'lands'
 
-    # It's highly recommended to set a unique table prefix if the plugin shares a database with other plugins or UpgradeableFurnace instances.
+    # It's highly recommended to set a unique table prefix if the plugin shares a database with other plugins or FasterFurnaces instances.
     table-prefix: 'furnaces_'
 
 
