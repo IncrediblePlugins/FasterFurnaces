@@ -1,0 +1,65 @@
+types:
+  furnace:
+    name: "&6&lUpgradeable Furnace"
+    cost: 1
+    levels:
+      1:
+        name: "I"
+        cost: 0
+        attributes:
+          cook-time:
+            # Set smelt time to be x percent faster (-) or slower (+).
+            value: -10
+          fuel-time:
+            # Set fuel to last x percent longer.
+            value: 10
+      2:
+        name: "II"
+        cost: 1000
+        attributes:
+          cook-time:
+            # Set smelt time to be x percent faster (-) or slower (+).
+            value: -20
+          fuel-time:
+            # Set fuel to last x percent longer.
+            value: 20
+      3:
+        name: "III"
+        cost: 3000
+        attributes:
+          cook-time:
+            # Set smelt time to be x percent faster (-) or slower (+).
+            value: -25
+          fuel-time:
+            # Set fuel to last x percent longer.
+            value: 25
+      4:
+        name: "IV"
+        cost: 4500
+        attributes:
+          cook-time:
+            # Set smelt time to be x percent faster (-) or slower (+).
+            value: -35
+          fuel-time:
+            # Set fuel to last x percent longer.
+            value: 35
+      5:
+        name: "V"
+        cost: 7000
+        attributes:
+          cook-time:
+            # Set smelt time to be x percent faster (-) or slower (+).
+            value: -50
+          fuel-time:
+            # Set fuel to last x percent longer.
+            value: 50
+      6:
+        name: "VI"
+        cost: 10000
+        attributes:
+          cook-time:
+            # Set smelt time to be x percent faster (-) or slower (+).
+            value: -70
+          fuel-time:
+            # Set fuel to last x percent longer.
+            value: 70

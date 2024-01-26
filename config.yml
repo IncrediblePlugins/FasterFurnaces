@@ -1,0 +1,69 @@
+general:
+  # Default: English (en-US) - no download required.
+  # This defines the default language. You can place multiple locales in the plugin's "Language" folder to display different locales depending on the player's locale.
+  # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk
+  # To access translations, other than en-US, execute /translations in the Discord server.
+  # The translation name should match the official language code (https://www.oracle.com/java/technologies/javase/jdk8-jre8-suported-locales.html).
+  # This option also affects the grouping and decimal separator for currency formatting.
+  language: 'en-US'
+
+  # Worlds in which furnaces can be placed.
+  worlds_list:
+    - world
+
+  # Set the format of all economy related displays.
+  # Info: https://docs.oracle.com/javase/7/docs/api/java/text/DecimalFormat.html
+  # NOTE: This setting requires server reload / restart.
+  eco-format:
+    # Recommended format for item economy and player experience: "# gold ingot(s)" or "# experience"
+    normal: '$#,##0.00'
+    # The short format will use the normal format if the value is lower than 1000.
+    # This format is only used in cases where there is not much space, like on signs.
+    # This will convert balances like the following:
+    # 1000000000 = 1B whereas {value} = 1 and {unit} = B
+    # 1000000 = 1M
+    # 1000 = 1k
+    short-unit: '${value}{unit}'
+
+# Database options
+database:
+  # MySQL database
+  # If MySQL is disabled, it will use SQLite instead, which runs out of the box without any further steps required.
+  # To use this without issues, your connection limits etc. need to be configured properly in your MySQL server configuration.
+  # It is not recommended to connect multiple UpgradeableFurnace instances to one database with the same table prefix.
+  mysql:
+    enabled: false
+    ip-address: 'localhost'
+    port: '3306'
+    username: 'minecraft'
+    password: 'password'
+    database: 'lands'
+
+    # It's highly recommended to set a unique table prefix if the plugin shares a database with other plugins or UpgradeableFurnace instances.
+    table-prefix: 'furnaces_'
+
+
+integration:
+  # Economy settings
+  # If all types are disabled, the item based economy will be used instead.
+  # NOTE: When changing these option you might also want to adjust the "eco-format" in this config.
+  economy:
+    vault:
+      # You need an economy plugin, which supports Vault, to let this work.
+      enabled_10: true
+      # Server bank account name. Upkeep will go here. Empty means, that this feature is disabled.
+      server-bank: ''
+    # Player experience
+    exp:
+      enabled_15: false
+    # Item currency is used when all other economy options are disabled or unavailable.
+    # The currency item can be edited in the GUI language file at the "currency" item.
+    items:
+      # If enabled, only items that have the same name, lore etc. will belong to the currency.
+      # Not just items of the same type or items with the same model-data.
+      strict: false
+
+protection:
+  # Supports: Lands (https://www.spigotmc.org/resources/53313), SuperiorSkyblock2, BentoBox, PlotSquared, WorldGuard
+  # Allow players, which are trusted in the region where the hopper is located in, to edit the hopper?
+  allow-region-members: false
