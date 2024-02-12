@@ -37,7 +37,7 @@ database:
     port: '3306'
     username: 'minecraft'
     password: 'password'
-    database: 'lands'
+    database: 'fasterfurnaces'
 
     # It's highly recommended to set a unique table prefix if the plugin shares a database with other plugins or FasterFurnaces instances.
     table-prefix: 'furnaces_'
@@ -65,5 +65,5 @@ integration:
 
 protection:
   # Supports: Lands (https://www.spigotmc.org/resources/53313), SuperiorSkyblock2, BentoBox, PlotSquared, WorldGuard
-  # Allow players, which are trusted in the region where the hopper is located in, to edit the hopper?
+  # Allow players, which are trusted in the region where the furnace is located in, to edit the furnace?
   allow-region-members: false
