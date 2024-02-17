@@ -1,7 +1,1 @@
-+ Added: fasterfurnaces.furnaces.<number> permission
-    Example: fasterfurnaces.furnaces.5
-    Description: Allow players to place a specific amount of furnaces.
-
-+ Added: /fasterfurnaces list command
-    Permission: fasterfurnaces.command.list
-    Description: View all placed furnaces.
+- Fixed: [#2526] MySQL connection

@@ -33,7 +33,7 @@ database:
   # It is not recommended to connect multiple FasterFurnaces instances to one database with the same table prefix.
   mysql:
     enabled: false
-    ip-address: 'localhost'
+    address: 'localhost'
     port: '3306'
     username: 'minecraft'
     password: 'password'
