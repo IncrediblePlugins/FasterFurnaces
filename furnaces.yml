@@ -1,3 +1,6 @@
+# Configurations of this file can't be reloaded. Changes to this file are only applied on server startup.
+# Therefore a server reboot is required, if you want to apply any changes of this file.
+
 types:
   furnace:
     name: "&6&lUpgradeable Furnace"
