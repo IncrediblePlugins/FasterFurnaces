@@ -1,1 +1,2 @@
-- Fixed: [#2526] MySQL connection
+- Fixed: Level not saved onto item
+- Fixed: Dropping two furnaces when in survival mode
