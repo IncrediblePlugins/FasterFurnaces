@@ -1,2 +1,1 @@
-- Fixed: Level not saved onto item
-- Fixed: Dropping two furnaces when in survival mode
++ Added: [Suggestion] Being able to disallow teleportation to furnaces: https://github.com/Angeschossen/FasterFurnaces/wiki/Permissions#teleportation
