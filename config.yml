@@ -56,6 +56,11 @@ integration:
     # Player experience
     exp:
       enabled_15: false
+    # Player levels
+    # Not recommended, since each player level has their own amount of experience.
+    # It's recommended to use exp instead.
+    level:
+      enabled_16: false
     # Item currency is used when all other economy options are disabled or unavailable.
     # The currency item can be edited in the GUI language file at the "currency" item.
     items:

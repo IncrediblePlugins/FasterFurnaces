@@ -1,1 +1,6 @@
-+ Added: [Suggestion] Being able to disallow teleportation to furnaces: https://github.com/Angeschossen/FasterFurnaces/wiki/Permissions#teleportation
++ Added: Option to use levels instead of experience for economy
+    # Player levels
+    # Not recommended, since each player level has their own amount of experience.
+    # It's recommended to use exp instead.
+    level:
+      enabled_16: false
