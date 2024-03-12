@@ -1,1 +1,3 @@
-- Fixed: Not dropping furnace inventory items on furnace deletion
+- Fixed: Some missing flag messages
+- Fixed: Not loading trusted players correctly
+- Fixed: Role flags (roles.yml)
