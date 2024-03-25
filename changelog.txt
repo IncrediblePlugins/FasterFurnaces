@@ -1,6 +1,1 @@
-+ Added: [Suggestion] Use ChestProtect for player management etc. Read more here: https://www.spigotmc.org/resources/chest-protect-%E2%AD%95-container-lock-protection-plugin-%E2%9C%85-entities-gui-management-1-20-support.53494/update?update=537001
-This is completely optional. If you want to use it make sure that the latest version of ChestProtect (v. 5.17.0) is installed.
-
-- Fixed: Some missing flag messages
-- Fixed: Not loading trusted players correctly
-- Fixed: Role flags (roles.yml)
+- Fixed: Interaction with ChestProtect
