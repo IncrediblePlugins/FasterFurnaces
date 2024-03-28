@@ -1,1 +1,1 @@
-- Fixed: Interaction with ChestProtect
+- Fixed: error on placing furnace with CP if furnaces are not in protectables.yml
