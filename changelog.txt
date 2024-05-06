@@ -1,1 +1,7 @@
-- Fixed: error on placing furnace with CP if furnaces are not in protectables.yml
++ Added: [Suggestion] You can now limit and/or convert vanilla furnaces:
+vanilla:
+  # Convert normal furnaces to upgradeable furnaces upon placement?
+  # Please keep in mind that this won't work, if players already reached their max amount of upgradeable furnaces.
+  convert: false
+  # Allow the placement of vanilla hoppers?
+  place: true
