@@ -1,7 +1,1 @@
-+ Added: [Suggestion] You can now limit and/or convert vanilla furnaces:
-vanilla:
-  # Convert normal furnaces to upgradeable furnaces upon placement?
-  # Please keep in mind that this won't work, if players already reached their max amount of upgradeable furnaces.
-  convert: false
-  # Allow the placement of vanilla hoppers?
-  place: true
++ Added: Entries in gui locale file to change attribute color and format
