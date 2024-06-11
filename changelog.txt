@@ -1,9 +1,1 @@
-+ Added: Support for blast furnace and smoker.
-You need to add the item option to farms.yml:
-  furnace:
-    name: "&6&lUpgradeable Furnace"
-    item: "FURNACE"
-
-    and so on.
-
-    Default furnaces.yml for reference: https://github.com/Angeschossen/FasterFurnaces/blob/main/furnaces.yml
+- Fixed: Some errors related to chat messages
