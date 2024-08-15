@@ -1,1 +1,1 @@
-- Fixed: Some errors related to chat messages
+- Fixed: Startup error related to SQLite

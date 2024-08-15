@@ -73,7 +73,7 @@ vanilla:
   # Convert normal furnaces to upgradeable furnaces upon placement?
   # Please keep in mind that this won't work, if players already reached their max amount of upgradeable furnaces.
   convert: false
-  # Allow the placement of vanilla hoppers?
+  # Allow the placement of vanilla furnaces?
   place: true
 
 
