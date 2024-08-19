@@ -1,1 +1,1 @@
-- Fixed: Startup error related to SQLite
+- Fixed: Missing flag message
