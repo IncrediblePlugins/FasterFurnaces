@@ -1,1 +1,1 @@
-- Fixed: ChestProtect integration
++ Added: /furnace admin give command
