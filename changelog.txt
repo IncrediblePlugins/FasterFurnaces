@@ -1,1 +1,1 @@
-+ Added: /furnace admin give command
++ Added: /furnace admin give commands
