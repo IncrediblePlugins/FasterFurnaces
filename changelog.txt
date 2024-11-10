@@ -1,1 +1,1 @@
-+ Added: /furnace fadmdin givel commandss
++ Added: /furnace admin give command
