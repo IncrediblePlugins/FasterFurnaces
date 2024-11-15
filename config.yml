@@ -51,6 +51,17 @@ general:
     time_2: 'hh:mm a'
 
 
+# General teleportation options.
+teleport:
+  # General teleportation cost. Some features might have specific options, which override this.
+  costs: 0
+  # Set the cost of any teleportation to 0 for players that joined the server for the first time.
+  # You can define a time span here. Example: 1d = players that joined the server 23 hours ago, won't pay for any teleportation.
+  first-join_time: 2h
+  # Time to wait before teleportation in seconds.
+  wait: 3
+
+
 # Database options
 database:
   # MySQL database
