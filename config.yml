@@ -89,6 +89,17 @@ vanilla:
 
 
 integration:
+  # Supports Lands (https://www.spigotmc.org/resources/53313), SuperiorSkyblock2, IridiumSkyblock, BentoBox
+  lands:
+    # Should players be allowed to place upgradeable furnaces only in claimed regions?
+    # This disallows placing upgradeable furnaces in wilderness. If a claim is being removed, all furnaces inside it will be removed as well and will drop to the ground
+    # or be given to the owner of the furnace.
+    only-land: false
+    # Remove furnaces of players that get untrusted from a region?
+    # The furnaces will be removed and the furnace item will drop to the ground or be given to the player, if the furnace is in a loaded chunk.
+    # If the furnace isn't in a loaded chunk, it will simply drop to the ground, the next time the chunk loads.
+    untrust-remove: true
+
   # Economy settings
   # If all types are disabled, the item based economy will be used instead.
   # NOTE: When changing these option you might also want to adjust the "eco-format" in this config.
