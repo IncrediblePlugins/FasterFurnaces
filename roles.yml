@@ -1,20 +1,13 @@
 # Wiki: https://github.com/Angeschossen/FasterFurnaces/wiki/Roles
 roles:
   owner:
-    name: '&4Owner'
     flags: 'ALL'
   admin:
-    name: '&cAdmin'
     flags:
-      - PLAYER_TRUST
-      - PLAYER_UNTRUST
-      - PLAYER_SETROLE
       - MANAGE
       - OPEN
   member:
-    name: '&eMember'
     flags:
       - OPEN
   visitor:
-    name: '&7Visitor'
     flags: []

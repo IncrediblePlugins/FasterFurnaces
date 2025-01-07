@@ -1,1 +1,1 @@
-- Fixed: Untrust remove from default area
+- Fixed: ChestProtect hook allow region members
