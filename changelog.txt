@@ -1,3 +1,1 @@
-- Fixed: Error with chestprotect
-- Fixed: Missing message menu-reopen
-- Fixed: Bedrock confirm error
++ Updated: IridiumSkyblock support
