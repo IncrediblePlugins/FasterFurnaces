@@ -1,1 +1,1 @@
-+ Updated: IridiumSkyblock support
++ Added: [Suggestion] New level attribute for given exp when extracting items

@@ -17,6 +17,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 10
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       2:
         name: "II"
         cost: 1000
@@ -27,6 +30,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 20
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       3:
         name: "III"
         cost: 3000
@@ -37,6 +43,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 25
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       4:
         name: "IV"
         cost: 4500
@@ -47,6 +56,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 35
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       5:
         name: "V"
         cost: 7000
@@ -57,6 +69,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 50
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       6:
         name: "VI"
         cost: 10000
@@ -67,6 +82,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 70
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
   blast_furnace:
     name: "&6&lUpgradeable Blast Furnace"
     item: "BLAST_FURNACE"
@@ -82,6 +100,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 10
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       2:
         name: "II"
         cost: 1000
@@ -92,6 +113,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 20
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       3:
         name: "III"
         cost: 3000
@@ -102,6 +126,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 25
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       4:
         name: "IV"
         cost: 4500
@@ -112,6 +139,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 35
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       5:
         name: "V"
         cost: 7000
@@ -122,6 +152,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 50
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       6:
         name: "VI"
         cost: 10000
@@ -132,6 +165,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 70
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
   smoker:
     name: "&6&lUpgradeable Smoker"
     item: "SMOKER"
@@ -147,6 +183,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 10
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       2:
         name: "II"
         cost: 1000
@@ -157,6 +196,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 20
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       3:
         name: "III"
         cost: 3000
@@ -167,6 +209,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 25
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       4:
         name: "IV"
         cost: 4500
@@ -177,6 +222,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 35
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       5:
         name: "V"
         cost: 7000
@@ -187,6 +235,9 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 50
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
       6:
         name: "VI"
         cost: 10000
@@ -197,3 +248,6 @@ types:
           fuel-time:
             # Set fuel to last x percent longer.
             value: 70
+          exp:
+            # Give x percent more (+) or less (-) exp.
+            value: 0
