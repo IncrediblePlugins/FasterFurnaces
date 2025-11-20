@@ -6,6 +6,8 @@ types:
     name: "&6&lUpgradeable Furnace"
     item: "FURNACE"
     cost: 1
+    # Add special flags to the furnace.
+    flags: []
     levels:
       1:
         name: "I"
