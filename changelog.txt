@@ -1,1 +1,3 @@
-+ Added: [Suggestion] New level attribute for given exp when extracting items
++ Added: [Suggestion] Drop furnace item upon explosion, if the furnace has the EXPLOSION_DAMAGE flag in furnaces.yml
++ Added: Protection against explosions, if EXPLOSION_DAMAGE flag not set in furnaces.yml
++ Added: Color codes & hex support for furnace level name

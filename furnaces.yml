@@ -7,7 +7,7 @@ types:
     item: "FURNACE"
     cost: 1
     # Add special flags to the furnace.
-    # You can find all available flags here:
+    # You can find all available flags here: https://wiki.incredibleplugins.com/fasterfurnaces/configuration/furnaces#flags
     flags: []
     levels:
       1:
