@@ -7,6 +7,7 @@ types:
     item: "FURNACE"
     cost: 1
     # Add special flags to the furnace.
+    # You can find all available flags here:
     flags: []
     levels:
       1:
@@ -91,6 +92,7 @@ types:
     name: "&6&lUpgradeable Blast Furnace"
     item: "BLAST_FURNACE"
     cost: 1
+    flags: []
     levels:
       1:
         name: "I"
@@ -174,6 +176,7 @@ types:
     name: "&6&lUpgradeable Smoker"
     item: "SMOKER"
     cost: 1
+    flags: []
     levels:
       1:
         name: "I"
